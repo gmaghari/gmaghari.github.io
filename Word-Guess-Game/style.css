@@ -1,0 +1,51 @@
+body {
+    background: url("../Word-Guess-Game/assets/images/background.jpg");
+}
+
+.jumbotron {
+    margin-top: 10px;
+    background: url("../Word-Guess-Game/assets/images/zoo.jpg");
+    padding-bottom: 10px;
+    border: 2px solid orangered;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    background: black;
+    color: white;
+    /* margin-bottom: 10px; */
+}
+
+h1, h2, h3 {
+    -webkit-text-stroke: 2px black;
+    color: orangered;
+}
+
+p {
+    /* -webkit-text-stroke: 2px black; */
+    color: brown;
+}
+
+.blink {
+    animation-name:animate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    opacity: 1;
+}
+  
+@keyframes animate {
+    0% {
+    opacity: 1;
+    }
+  
+    50% {
+    opacity: 0.5
+    }
+  
+    100% {
+    opacity: 0;
+    }
+}
